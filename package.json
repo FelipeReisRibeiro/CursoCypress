@@ -5,14 +5,11 @@
   "main": "src/index.html",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:headless": "cypress run",
-    "cy:open:mobile": "cypress open --config viewportWidth=410,viewportHeight=860",
-    "cy:headMobile": "cypress run --config viewportWidth=410,viewportHeight=860",
     "test": "cypress run"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FelipeReisRibeiro/AutomacaoCypress.git"
+    "url": "git+https://github.com/wlsf82/cypress-basico-v2.git"
   },
   "keywords": [
     "Testing",
@@ -21,10 +18,10 @@
     "Cypress Básico",
     "Escola TAT"
   ],
-  "author": "Felipe dos Reis Ribeiro",
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev/)",
   "license": "MIT",
   "homepage": "https://github.com/wlsf82/cypress-basico-v2#readme",
   "devDependencies": {
-  "cypress": "^9.5.1"
+    "cypress": "^12.0.2"
   }
 }
